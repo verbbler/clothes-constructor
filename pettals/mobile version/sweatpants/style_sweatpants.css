@@ -1,0 +1,283 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: helvetica, arial;
+}
+
+.wrapper
+{
+	width: 400px;
+	height: 670px;
+	background: rgba(210, 170, 118, 0.13);;
+}
+
+.head_content
+{
+	text-align: center;
+	border: 2px solid #DAD7D4;
+	background-color: #FFFCFA;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 8px;
+	margin-top: -10px;
+	flex: 5;
+	max-height: 35px;
+}
+
+.quiz_body
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.quiz_body > div
+{
+	flex: 1;
+}
+
+.quiz_footer 
+{
+	display: none;
+}
+
+.footer_content 
+{
+	display: none;
+}
+
+/* .buttons
+{
+	margin-top: 180px;
+} */
+
+.button_content
+{
+	display: flex;
+	flex-direction: row;
+	height: 180px;
+}
+
+.button
+{
+	flex: 1;
+	flex: 1;
+	border: 2px solid #A57D61;
+	border-radius: 10px;
+	background: #FFFCFA;
+	margin: 5px;
+	padding: 5px;
+	min-height: 170px;
+	max-height: 170px;
+	min-width: 122px;
+	max-width: 122px;
+	background-size: 100%;
+	background-position: center;
+	color: rgba(0, 0, 0, 0);
+	font-family: "Pips";
+}
+
+.button.selected
+{
+    border:2px solid #674837;
+    filter: brightness(1.15); 
+	color: black;
+	vertical-align: baseline;
+}
+
+.results
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 390px;
+	margin-top: 350px;
+}
+
+.results > div
+{
+	min-height: 20px;
+	max-height: 20px;
+	flex-direction: 1;
+	text-align: center;
+}
+
+/* .image > .quiz_images */
+
+.quiz_images
+{
+	height: 400px;
+	display: flex;
+	min-height: 350px;
+	background: white;
+	margin: 30px;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+
+.image
+{
+	position: absolute;
+	top: 0px;
+	margin: auto;
+}
+
+.image > img
+{
+	width: 100%;
+}
+
+.image0
+{
+	top: 70px;
+	left: 130px;
+	width: 130px;
+}
+
+.image1
+{
+	top: 220px;
+	left: 132px;
+	width: 125px;
+}
+
+.image2
+{
+	top: 312px;
+	left: 134px;
+	width: 110px;
+}
+
+.mini_images
+{
+	flex-direction: row;
+	display: flex;
+	flex: 1;
+}
+
+.mini0
+{
+	top: 445px;
+	width: 80px;
+	left: 15px;
+	border: 2px solid #DAD7D4;
+	border-radius: 10px;
+	padding: 10px;
+	min-height: 100px;
+	background-color: #FFFCFA;
+}
+
+.mini1
+{
+	top: 445px;
+	width: 80px;
+	left: 140px;
+	border: 2px solid #DAD7D4;
+	border-radius: 10px;
+	padding: 10px;
+	min-height: 100px;
+	background-color: #FFFCFA;
+}
+
+.mini2
+{
+	top: 445px;
+	width: 80px;
+	left: 270px;
+	border: 2px solid #DAD7D4;
+	border-radius: 10px;
+	padding: 10px;
+	min-height: 100px;
+	background-color: #FFFCFA;
+}
+
+.back_button
+{
+	display: flex;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: #A57D61;
+	width: 55px;
+	background-color: #FFFCFA;
+	flex: 1;
+	height: 30px;
+	margin: 5px;
+	margin-top: -10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.shop
+{
+	background: #A57D61;
+	border-radius: 10px;
+	color: white;
+	margin: 5px;
+	flex-direction: row;
+	justify-items: center;
+	align-items: center;
+	width: 390px;
+	min-height: 40px;
+	max-height: 40px;
+	text-align: center;
+}
+
+.valueShop
+{
+	position: absolute;
+	top: 640px;
+	left: 330px;
+}
+
+.imgShop
+{
+	position: absolute;
+	left: 50px;
+	top: 640px;
+}
+
+.cantShop
+{
+	background-color: #D28176;
+	color: white;
+	border-radius: 10px;
+	margin: 5px;
+	flex-direction: row;
+	justify-items: center;
+	align-items: center;
+	width: 390px;
+	min-height: 40px;
+	max-height: 40px;
+}
+
+.next_button
+{
+	display: flex;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: #A57D61;
+	width: 55px;
+	background-color: #FFFCFA;
+	flex: 1;
+	height: 30px;
+	margin: 5px;
+	margin-top: -10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainButtons
+{
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+}
+
+@font-face {
+	font-family: "Pips";
+	src: url("/Users/vera/pettals/fonts/ofont.ru_PIPS.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

@@ -1,0 +1,197 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: helvetica, arial;
+}
+
+.wrapper
+{
+	width: 390px;
+	height: 670px;
+
+}
+
+.head_content
+{
+	text-align: center;
+	border: 2px solid #DAD7D4;
+	background-color: #FFFCFA;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 8px;
+	margin-top: 380px;
+}
+
+.quiz_body
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.quiz_body > div
+{
+	flex: 1;
+}
+
+.quiz_footer 
+{
+	display: none;
+}
+
+.footer_content 
+{
+	display: none;
+}
+
+.buttons
+{
+	margin-top: 180px;
+}
+
+.button_content
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.button
+{
+	flex: 1;
+	flex: 1;
+	border: 2px solid #6EA37D;
+	border-radius: 10px;
+	background: #FFFCFA;
+	margin: 5px;
+	padding: 5px;
+	min-height: 50px;
+}
+
+.results
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 390px;
+	margin-top: 350px;
+}
+
+.results > div
+{
+	min-height: 20px;
+	max-height: 20px;
+	flex-direction: 1;
+	text-align: center;
+}
+
+.image > .quiz_images
+
+.quiz_images
+{
+	height: 400px;
+	min-height: 400px;
+	max-height: 400px;
+	display: flex;
+}
+
+.image
+{
+	position: absolute;
+	top: 0px;
+	margin: auto;
+}
+
+.image > img
+{
+	width: 100%;
+}
+
+.image0
+{
+	top: 50px;
+	left: 110px;
+	width: 130px;
+}
+
+.image1
+{
+	top: 200px;
+	left: 112px;
+	width: 125px;
+}
+
+.image2
+{
+	top: 292px;
+	left: 114px;
+	width: 110px;
+}
+
+.mini0
+{
+	top: 445px;
+	width: 80px;
+	left: 15px;
+	border: 2px solid #DAD7D4;
+	border-radius: 10px;
+	padding: 10px;
+	min-height: 100px;
+	background-color: #FFFCFA;
+}
+
+.mini1
+{
+	top: 445px;
+	width: 80px;
+	left: 140px;
+	border: 2px solid #DAD7D4;
+	border-radius: 10px;
+	padding: 10px;
+	min-height: 100px;
+	background-color: #FFFCFA;
+}
+
+.mini2
+{
+	top: 445px;
+	width: 80px;
+	left: 270px;
+	border: 2px solid #DAD7D4;
+	border-radius: 10px;
+	padding: 10px;
+	min-height: 100px;
+	background-color: #FFFCFA;
+}
+
+.buttons2
+{
+	display: flex;
+	flex-direction: row
+	justify-items: center;
+	align-items: center;
+	width: 390px;
+}
+
+.back_button
+{
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: #6EA37D;
+	width: 55px;
+	background-color: #FFFCFA;
+	flex: 1;
+	height: 30px;
+	margin: 5px;
+}
+
+.shop
+{
+	background: #6EA37D;
+	border-radius: 10px;
+	color: white;
+	flex: 4;
+	height: 45px;
+	margin: 5px;
+}

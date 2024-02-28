@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<title>Quiz</title>
+		<meta charset="utf-8">
+<!-- 
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">	 --> гугл шрифт
+
+		<link rel="stylesheet" type="text/css" href="style_sweatpants.css">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="true"/>
+		<script type="text/javascript" src="script_sweatpants.js"></script>
+	</head>
+
+<body>
+    <div id = "quiz" class = "wrapper">
+		<main class = "main">
+			<div class = "quiz_body">
+				<div class = "quiz_images">
+					<div class = "image image0" id = "images"></div>
+					<div class = "image image1" id = "img1"></div>
+					<div class = "image image2" id = "img2"></div>
+   				 </div>
+				 <div class = "mainButtons">
+				<div class = "back_button" id = "historyButton" onclick = "GoBack()"> < </div>
+				<div class = "head_content" id = "head"></div>
+				<div class = "next_button" id = "go" onclick = "GoNext()"> > </div>
+			    </div>
+				<div class = "buttons">
+					<div class = "button_content" id = "buttons"></div>
+				</div>
+				<div class = "buttons_shopping">
+				<div class = "shop" id = "toShop" onclick = "goShop()"><div class = "imgShop" id = "shopIcon"></div>  В корзину <div class = "valueShop" id = "shopValue">0 ₽</div></div>
+				<div class = "cantShop" id = "noShop" style="display: none;">Выберите все модификации</div>
+				</div>
+    			
+	            <div class = "quiz_footer">
+					<div class = "footer_content" id = "pages"></div>
+				</div>
+		   </div>
+		</main>
+
+	<div id = "results" class = "results" style = "display:none;"></div>
+</body>
+
+<footer></footer>
+
+<script>
+	window.onload = (event) => {
+		Startup();
+	};
+	</script>
+
+	</html>

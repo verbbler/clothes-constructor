@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<title>Quiz</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style_miniSweatpants.css">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="true"/>
+		<script type="text/javascript" src="script_miniSweatpants.js"></script>
+	</head>
+
+<body>
+    <div id = "quiz" class = "wrapper">
+		<main class = "main">
+			<div class = "quiz_body">
+			    <div class = "mini_images">
+					<div class = "image mini0" id = "mini0"></div>
+		            <div class = "image mini1" id = "mini1"></div>
+		            <div class = "image mini2" id = "mini2"></div>
+				</div>
+				<div class = "head_content" id = "head"></div>
+				<div class = "buttons">
+					<div class = "button_content" id = "buttons"></div>
+				</div>
+				<div class = "quiz_footer">
+					<div class = "footer_content" id = "pages"></div>
+				</div>
+		   </div>
+		</main>
+	</div>
+    <div class = "quiz_images">
+		<div class = "image image0" id = "images"></div>
+		<div class = "image image1" id = "img1"></div>
+		<div class = "image image2" id = "img2"></div>
+    </div>
+	<div id = "results" class = "results" style = "display:none;"></div>
+	<div class = buttons2>
+		<button class = "back_button" id = "historyButton" onclick = "GoBack()">Назад</button>
+		<button class = "shop" id = "toShop">В корзину</button>
+	</div>
+</body>
+
+<footer></footer>
+
+<script>
+	window.onload = (event) => {
+		Startup();
+	};
+	</script>
+	
+	</html>

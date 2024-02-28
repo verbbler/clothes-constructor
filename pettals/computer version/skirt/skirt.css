@@ -1,0 +1,493 @@
+.wrapperr
+{
+    display: flex;
+    background: rgba(210, 170, 118, 0.13);
+    flex-direction: row;
+    height: 725px;
+}
+
+.constructorImage
+{
+    flex: 1;
+    margin: 10px;
+}
+
+.modifierButtons
+{
+    display: flex;
+    border-radius: 30px;
+    flex: 1;
+    margin: 10px;
+    margin-right: 0px;
+    box-shadow: -10px 0 10px 0 rgba(181, 149, 124, 0.3);
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.headBut
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.head
+{
+    display: flex;
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(181, 149, 124, 0.3);
+    color: rgba(181, 149, 124, 1);
+}
+
+.head.active
+{
+    border: 2px solid rgba(181, 149, 124, 0.3);
+    background: rgba(181, 149, 124, 0.5);
+    color: white;
+}
+
+.head.notActive
+{
+    border: none;
+    background: rgba(181, 149, 124, 0.1);
+    color: rgba(181, 149, 124, 0.3);
+    pointer-events: none;
+}
+
+.buttonn
+{
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    max-height: 390px;
+}
+
+.modelButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center; 
+}
+
+.modelButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.lengthButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.lengthButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.beltButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.beltButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.fixBeltButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.fixBeltButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.laceButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.laceButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.retainerButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.retainerButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.sidePocketButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.sidePocketButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.frontPocketButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.frontPocketButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.backPocketButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.backPocketButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.bottomButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.bottomButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.edgeButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.edgeButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.sizeButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.sizeButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.materialButton
+{
+    display: none;
+    flex-direction: row;
+    height: 160px;
+    width: 16%;
+    border: 2px solid rgba(181, 149, 124, 1);
+    border-radius: 20px;
+    margin: 6px;
+    padding: 6px;
+    justify-content: center;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+    background: url("https://i.imgur.com/RuQNtmv.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.materialButton:hover
+{
+	color: rgb(255, 255, 255);
+	box-shadow: 0 -30px 20px 0px #A67D61 inset; 
+    font-family: "Pips";
+    font-weight: normal;
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    margin: 10px;
+    flex: 0.25;
+    border-top: 1px solid rgba(181, 149, 124, 0.3);
+    padding-top: 7px;
+    min-height: 45px;
+    max-height: 45px;
+}
+
+.price
+{
+    flex: 4;
+    align-self: center;
+    color: rgba(181, 149, 124, 1);
+    margin: 5px;
+    padding: 5px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.noShop
+{
+    display: none;
+    margin: 5px;
+    padding: 3.5px;
+    color: #D28176;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    font-size: 19px;
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#heart
+{
+    margin-left: 5px;
+    height: 77%;
+    transform: scale(80%);
+    padding: 3px;
+}
+
+.addToCart
+{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+    color: rgba(181, 149, 124, 1);
+    margin: 5px;
+    padding: 5px;
+    transform: scale(1.5);
+    padding-right: 30px;
+}
+
+@font-face {
+	font-family: "Pips";
+	src: url("https://static.tildacdn.com/tild3138-3235-4131-b033-656131383564/ofontru_PIPS.woff") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
